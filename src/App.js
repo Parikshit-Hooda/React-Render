@@ -1,3 +1,4 @@
+import { ArrayUseState } from "./components/ImmutableState/ArrayUseState";
 import { ObjectUseState } from "./components/ImmutableState/ObjectUseState";
 // import UseReducer from "./components/UseReducer/UseReducer";
 // import UseState from "./components/UseState/UseState";
@@ -9,7 +10,8 @@ export default function App() {
       <h1>React Render tutorials</h1>
       {/* <UseState /> */}
       {/* <UseReducer /> */}
-      <ObjectUseState />
+      {/* <ObjectUseState /> */}
+      <ArrayUseState />
     </div>
   );
 }
