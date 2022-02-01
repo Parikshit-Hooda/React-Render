@@ -1,5 +1,6 @@
-import { ArrayUseState } from "./components/ImmutableState/ArrayUseState";
-import { ObjectUseState } from "./components/ImmutableState/ObjectUseState";
+// import { ArrayUseState } from "./components/ImmutableState/ArrayUseState";
+// import { ObjectUseState } from "./components/ImmutableState/ObjectUseState";
+import { Parent } from "./components/ParentChild/Parent";
 // import UseReducer from "./components/UseReducer/UseReducer";
 // import UseState from "./components/UseState/UseState";
 import "./styles.css";
@@ -11,7 +12,8 @@ export default function App() {
       {/* <UseState /> */}
       {/* <UseReducer /> */}
       {/* <ObjectUseState /> */}
-      <ArrayUseState />
+      {/* <ArrayUseState /> */}
+      <Parent />
     </div>
   );
 }
