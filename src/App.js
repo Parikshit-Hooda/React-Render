@@ -1,11 +1,13 @@
-import UseState from "./components/UseState/UseState";
+import UseReducer from "./components/UseReducer/UseReducer";
+// import UseState from "./components/UseState/UseState";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello, world! Testing..</h1>
-      <UseState />
+      <h1>React Render tutorials</h1>
+      {/* <UseState /> */}
+      <UseReducer />
     </div>
   );
 }
